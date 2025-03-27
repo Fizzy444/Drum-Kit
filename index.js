@@ -1,6 +1,5 @@
 for(var i=0;i<7;i++){
-    document.querySelectorAll(".drum")[i].addEventListener("click",function (event){ 
-        event.preventDefault();
+    document.querySelectorAll(".drum")[i].addEventListener("click",function (){
         var buttonHtml = this.innerHTML;
         makeSound(buttonHtml);
         buttonAnimation(buttonHtml);
